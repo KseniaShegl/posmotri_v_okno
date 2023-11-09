@@ -293,7 +293,6 @@ white-space: nowrap;
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   content: '';
   display: block;
-  position: absolute;
   background-color: #FFF;
   block-size: 16px;
   inline-size: 16px;
