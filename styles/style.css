@@ -19,7 +19,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  word-break: break-all;
 }
 
 h1,
@@ -203,6 +202,9 @@ white-space: nowrap;
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 205px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__card-link {
@@ -255,6 +257,7 @@ white-space: nowrap;
 
 .button:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .button:focus {
@@ -305,6 +308,7 @@ white-space: nowrap;
 
 .content__card-link:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .content__card-link:focus {
@@ -313,7 +317,7 @@ white-space: nowrap;
 
 .content__card-link:focus-visible {
   outline: 1px solid #FFF;
-  padding: 1px;
+  outline-offset: -3px;
 }
 
 
