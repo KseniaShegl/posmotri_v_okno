@@ -116,12 +116,12 @@ ol {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-clip-path: inset(50%);
+  clip-path: inset(50%);
   width: 1px;
-height: 1px;
-overflow: hidden;
-position: absolute;
-white-space: nowrap;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
 } 
 
 .search-form__checkbox + .search-form__pseudo-checkbox {
@@ -203,14 +203,18 @@ white-space: nowrap;
   white-space: nowrap;
   max-width: 205px;
   text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .content__card-link {
   color: #FFF;
   text-decoration: none;
   display: block;
+}
+
+.content__card-link_current {
+  background: #545050;
 }
 
 .content__video-card-title {
