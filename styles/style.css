@@ -184,7 +184,7 @@ ol {
   margin-bottom: 0px;
 }
 
-.content__video-card{
+.content__video-card {
   display: grid;
   grid-template-columns: 202px 194px;
   padding: 2px;
